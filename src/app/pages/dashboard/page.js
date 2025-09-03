@@ -8,7 +8,7 @@ export default function Dashboard() {
   const [username, setUsername] = useState("");
 
   useEffect(() => {
-    const user = { name: "Rahul Singh" }; 
+    const user = { name: "Rahul Singh" };
     setUsername(user.name);
   }, []);
 
@@ -17,15 +17,15 @@ export default function Dashboard() {
       const user = localStorage.getItem("user");
       if (user) setIsLoggedIn(true);
     }, 900000);
-  },[]);
+  }, []);
 
   return (
     <>
       <Navbar
-      home="Home"
-      aboutUs="About Us"
-      contactUs="Contact Us"
-      logOut="Log Out"
+        home="Home"
+        aboutUs="About Us"
+        contactUs="Contact Us"
+        logOut="Log Out"
       />
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
@@ -103,17 +103,15 @@ export default function Dashboard() {
             Get In Touch
           </h2>
           <p className="text-gray-600 mb-6">
-            Have a project idea? Let’s build something amazing together!
+            Have a project idea? Let&apos;s build something amazing together!
           </p>
-          import Link from "next/link";
 
-<Link
-  href="/contactus"   // ✅ no need for "./"
-  className="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition"
->
-  Contact Me
-</Link>
-
+          <Link
+            href="/contactus"
+            className="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition"
+          >
+            Contact Me
+          </Link>
         </section>
       </div>
     </>
