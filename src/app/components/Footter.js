@@ -31,10 +31,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-white">Resources</h3>
           <ul className="mt-2 space-y-1">
-            <li><a href="/notes" className="hover:text-yellow-300">Notes</a></li>
-            <li><a href="/quizzes" className="hover:text-yellow-300">Quizzes</a></li>
-            <li><a href="/community" className="hover:text-yellow-300">Community</a></li>
-            <li><a href="/help" className="hover:text-yellow-300">Help</a></li>
+            <li><Link href="/notes" className="hover:text-yellow-300">Notes</Link></li>
+            <li><Link href="/quizzes" className="hover:text-yellow-300">Quizzes</Link></li>
+            <li><Link href="/community" className="hover:text-yellow-300">Community</Link></li>
+            <li><Link href="/help" className="hover:text-yellow-300">Help</Link></li>
           </ul>
         </div>
 
@@ -42,10 +42,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-white">Follow</h3>
           <div className="mt-2 flex justify-center md:justify-start space-x-3 text-xl">
-            <a href="#" className="hover:text-blue-400"><FaFacebook /></a>
-            <a href="#" className="hover:text-sky-400"><FaTwitter /></a>
-            <a href="#" className="hover:text-pink-400"><FaInstagram /></a>
-            <a href="#" className="hover:text-blue-300"><FaLinkedin /></a>
+            <Link href="#" className="hover:text-blue-400"><FaFacebook /></Link>
+            <Link href="#" className="hover:text-sky-400"><FaTwitter /></Link>
+            <Link href="#" className="hover:text-pink-400"><FaInstagram /></Link>
+            <Link href="#" className="hover:text-blue-300"><FaLinkedin /></Link>
           </div>
         </div>
       </div>
