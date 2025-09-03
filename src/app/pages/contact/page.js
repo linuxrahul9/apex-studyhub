@@ -19,10 +19,10 @@ export default function ContactUs() {
         className="text-center py-16 px-6"
       >
         <h1 className="text-4xl md:text-5xl font-extrabold text-indigo-700 mb-4">
-          Contact Us ✨
+          Contact Us
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-          Have questions or ideas? We'd love to hear from you!  
+          Have questions or ideas? WeWe&apos;d love to hear from you!  
           Fill out the form or reach us directly via the info below.
         </p>
       </motion.section>

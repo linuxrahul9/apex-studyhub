@@ -1,4 +1,5 @@
-/node_modules
+- <a href="/">Home</a>
++ <Link href="/">Home</Link>/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -36,3 +37,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+node_modules
